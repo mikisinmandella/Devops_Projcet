@@ -6,15 +6,15 @@ users=" Miki & Einav Project"
   thanks=" Thank U Ziv"
   goodbye="Your Grade is :____"
 // opens document and uses methods to modify text characteristics
-<center>
- document.open()
-document.write(test.bold()+"<P>")
-document.write(users.fontsize(7)+"<P>")
-document.write(love.fontcolor("red")+"<P>")
-document.write(thanks.toUpperCase()+"<P>")
+
+document.open()
+document.write("<center>"+test.bold()+"<P>"+"</center>")
+document.write("<center>"+users.fontsize(7)+"<P>"+"</center>")
+document.write("<center>"+love.fontcolor("red")+"<P>"+"</center>")
+document.write("<center>"+thanks.toUpperCase()+"<P>"+"</center>")
 
 //assigns multiple characteristics to text
-document.write(goodbye.italics().fontsize(6).fontcolor("green")+"<P>")
+document.write("<center>"+goodbye.italics().fontsize(6).fontcolor("green")+"<P>"+"</center>")
 document.open()
- </center>
+ 
 </SCRIPT>
