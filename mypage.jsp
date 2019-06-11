@@ -9,8 +9,8 @@ function myFunction() {
 </head>
 <body>
 <center>
-<h2>DevOps Final Project</h2>
-<h3>Einav & Miki</h3>
+<h2style="background-color:pink;">DevOps Final Project</h2>
+<h3 style="background-color:Teal;">Einav & Miki</h3>
 <p id="demo">Lests see what happens when you press the button</p>
 
 <button type="button" onclick="myFunction()">I'm the button</button>
