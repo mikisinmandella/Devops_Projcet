@@ -18,7 +18,7 @@ function myFunction() {
     <div class="col-lg-12">
       <img id = "gifview" src="https://data.whicdn.com/images/187132170/original.gif" alt="" />
     </div>
-  <h3 style="background-color:Teal;">Thank U Ziv</h3>
+  <h3 style="background-color:Teal;">Thank U Ziv !</h3>
 </body>
  </center>
 </html>
