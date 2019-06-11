@@ -9,7 +9,7 @@ function myFunction() {
 </head>
 <body>
 <center>
-<h2style="background-color:pink;">DevOps Final Project</h2>
+<h2style="color:pink;">DevOps Final Project</h2>
 <h3 style="background-color:Teal;">Einav & Miki</h3>
 <p id="demo">Lests see what happens when you press the button</p>
 
