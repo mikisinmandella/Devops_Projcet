@@ -1,20 +1,22 @@
-<SCRIPT>
-//assigns value to variable
-test ="What is all this?"
-users=" Miki & Einav Project"
- love=" We Love DevOps"
-  thanks=" Thank U Ziv"
-  goodbye="Your Grade is :____"
-// opens document and uses methods to modify text characteristics
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "We get an A!";
+}
+</script>
+</head>
+<body>
 
-document.open()
-document.write("<center>"+test.bold()+"<P>"+"</center>")
-document.write("<center>"+users.fontsize(7)+"<P>"+"</center>")
-document.write("<center>"+love.fontcolor("red")+"<P>"+"</center>")
-document.write("<center>"+thanks.toUpperCase()+"<P>"+"</center>")
+<h2>DevOps Final Project</h2>
+<h3>Einav & Miki</h3>
+<p id="demo">Lests see what happens when you press the button</p>
 
-//assigns multiple characteristics to text
-document.write("<center>"+goodbye.italics().fontsize(6).fontcolor("green")+"<P>"+"</center>")
-document.open()
- 
-</SCRIPT>
+<button type="button" onclick="myFunction()">I'm the button</button>
+<div class="row">
+    <div class="col-lg-12">
+      <img id = "gifview" src="https://data.whicdn.com/images/187132170/original.gif" alt="" />
+    </div>
+</body>
+</html>
